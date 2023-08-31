@@ -1,0 +1,778 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header-start */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+ul {
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: 1330px;
+    height: 70px;
+    margin-left:287px;
+    position: absolute;
+    z-index: 100;
+}
+.header img{
+    width: 80px;
+    height: 29px;
+}
+.header-left a{
+    width: 100px;
+    height: 13px;
+}
+.header-left{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+    align-items: center;
+
+}
+.header-right{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 225px;
+    align-items: center;
+}
+/* header-ends */
+/* navbar-start */
+.navbar{
+    width: 1330px;
+    height: 110px;
+    margin-left: 287px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 100;   
+    background-color:#fafafa;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.navbar-left{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 30px;
+}
+.navbar-left img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.navbar-left ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
+    align-items: center;
+}
+.land-of a{
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+.india img{
+    width: 21px;
+    height: 16px;
+}
+.india button{
+    font-size: 10px;
+    background-color: #0f0f0f;
+    color: #ebebeb;
+    font-weight: 500;
+    border: none;
+}
+.my-ducati button{
+    background-color: #0f0f0f;
+    color: #fafafa;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+.navbar-center{
+    width: 200px;
+}
+.navbar-center img{
+    width: 55px;
+
+}
+.navbar-right ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    height: 50px;
+}
+.navbar-left a{
+    font-size: 14px;
+}
+.navbar-right{
+    width: 400px;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 30px;
+}
+.navbar-right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* navbar-ends */
+
+/* hero-section-start  */
+.hero-image img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero-title{
+    position: absolute;
+    color: white;
+    top: 60%;
+    margin-left:256px;
+}
+.hero-title h1{
+    font-size: 49px;
+    font-weight: 300;
+}
+.hero-title  h4{
+    font-size: 15px;
+    font-weight: 300;
+}
+/* hero-section-ends */
+.highlights h1{
+    color: #ebebeb;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.slide{
+    outline: 2px solid red;
+    width: 1330px;
+    height: 249px;
+    margin-left: 289px;
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: auto 700px;
+    justify-content: space-between;
+
+}
+.slide-right img{
+    width: 700px;
+    height: 249px;
+}
+.container{
+    outline: 2px solid red;
+    display: grid;
+    grid-template-rows: 100px 400px;
+    grid-template-columns: auto auto auto;
+}
+
+/* pictures  */
+.pictures{
+    display: grid;
+    grid-template-columns: 951px 951px;
+    grid-template-rows: 664px 664px;
+    margin-top: 81px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.025, 0.46, 0.45, 0.94);
+}
+.one-1 img{
+    width:951px;
+    height: 664px;
+}
+.one-2 img{
+    width:951px;
+    height: 664px;
+}
+.one-3 img{
+    width:951px;
+    height: 664px;
+}
+.one-4 img{
+    width:951px;
+    height: 664px;
+}
+/* ------------------------------------- */
+.picture-btn-1{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 2400px;
+    color: #ebebeb;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.picture-btn-1 h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.picture-btn-1 h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.picture-btn-1 button{
+    width: 190px;
+    height: 60px;
+    border: .1px solid white;
+    align-items: center;
+    background-color: transparent;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* ------------------------------------- */
+.picture-btn-2{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 2400px;
+    color: #ebebeb;
+    margin-left: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.picture-btn-2 h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.picture-btn-2 h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.picture-btn-2 button{
+    width: 190px;
+    height: 60px;
+    border: .1px solid white;
+    align-items: center;
+    background-color: transparent;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* ---------------------------------- */
+.picture-btn-3{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 3100px;
+    color: #ebebeb;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.picture-btn-3 h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.picture-btn-3 h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.picture-btn-3 button{
+    width: 190px;
+    height: 60px;
+    border: .1px solid white;
+    align-items: center;
+    background-color: transparent;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* -------------------------------- */
+.picture-btn-4{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 3100px;
+    color: #ebebeb;
+    margin-left: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.picture-btn-4 h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.picture-btn-4 h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.picture-btn-4 button{
+    width: 190px;
+    height: 60px;
+    border: .1px solid white;
+    align-items: center;
+    background-color: transparent;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* pictures  */
+/* latest-news */
+.latest-news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    width: 1330px;
+    column-gap: 10px;
+    margin-left: 287px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.latest-news img{
+    width: 416px;
+}
+.latest-news-img-1{
+    height: 416px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.latest-news p{
+    margin: 20px;
+    line-height: 20px;
+}
+.latest-news h4{
+    margin: 20px 30px;
+    color: #666666;
+    font-size: 14px;
+}
+/* latest-news */
+
+/* Enjoy Ducati to the fullest */
+.enjoy-ducti{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 200px;
+    
+}
+.enjoy-ducti img{
+    width: 634px;
+    height: 356px;
+    
+}
+.enjoy-ducti h4{
+    position: absolute;
+    top: 50%;
+}
+
+/* Enjoy Ducati to the fullest */
+
+/* discover-more */
+.discover-more{
+    width: 1330px;
+    height: 600px;
+    margin-left: 287px;
+    position: relative;
+    margin-top: 50px;
+}
+.discover-more img{
+    width: 1330px;
+    height: 600px;
+}
+.discover-more-btn{
+    width: 190px;
+    height: 60px;
+    background-color: red;
+    letter-spacing: 1.1px;
+    color: #ebebeb;
+    font-size: 14px;
+    position: absolute;
+    top: 569%;
+    margin-left: 350px;
+    border-radius: 5px;
+    border: .1px solid white;
+   
+
+}
+/* discover-more */
+/* my ducati-app */
+.my-ducati-app{
+    width: 1330px;
+    height: 291px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 287px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 60px;
+    border-left: 2px solid red;
+}
+
+.my-ducati-app img{
+    width:665px;
+    height: 291px;
+}
+.my-ducati-heading{
+    margin: 30px 50px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.my-ducati-heading h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f0f0f;
+
+}
+.my-ducati-heading h4{
+    color: #666666;
+    font-size: 14px;
+}
+.my-ducati-heading a{
+    color: #cc0000;
+    font-size:14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+/* my ducati-app */
+
+/* /* configure-here */
+.configure-here img{
+    width: 1330px;
+    height: 603px;
+    margin-left: 287px;
+    position: relative;
+    margin-top: 60px;
+}
+.configure-here-btn{
+    width: 190px;
+    height: 60px;
+    background-color: red;
+    letter-spacing: 1.1px;
+    color: #ebebeb;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    top: 675%;
+    margin-left: 350px;
+    position: absolute;
+    font-weight: 700;
+}
+.configure-here-heading{
+    position: absolute;
+    top: 630%;
+    margin-left: 350px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.configure-here-heading p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+
+/* configure-here */ 
+
+/* find-your-motor-cycle */
+
+/* find-your-motor-cycle */
+/* follow-ducati-on-instagram */
+.follow-ducati img{
+        width: 1330px;
+    height: 603px;
+    margin-left: 287px;
+    position: relative;
+    margin-top: 60px;
+
+}
+.follow-ducati-btn{
+    width: 190px;
+    height: 60px;
+    background-color: red;
+    letter-spacing: 1.1px;
+    color: #ebebeb;
+    font-size: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 780%;
+    margin-left: 350px;
+    position: absolute;
+    font-weight: 600;
+    border: none;
+}
+.folow-ducati-heading{
+    position: absolute;
+    top: 740%;
+    margin-left: 350px;
+    position: absolute;
+    color: white;
+
+}
+.folow-ducati-heading h1{
+    font-weight: 300;
+}
+.folow-ducati-heading P{
+    margin-top: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+/* follow-ducati-on-instagram */
+
+/* Disclaimer-starts  */
+.Disclaimer{
+    width: 680px;
+    height: 89px;
+    margin-left: 619px;
+    margin-top: 80px;
+    letter-spacing: .8px;
+    line-height: 1.5;
+}
+.Disclaimer span{
+    font-weight: 600;
+}
+/* Disclaimer-ends */
+/* subscribe-start */
+.subscribe{
+    width: 1330px;
+    height: 552px;
+    margin-left: 287px;
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    border-top: 1px solid rgba(227, 227, 227, 0.753);
+
+}
+.subscribe-row{
+    width: 700px;
+    height: 267px;
+    align-items: center;
+    margin-left: 315px;
+    margin-top: 118px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.subscribe-row span{
+    align-items: center;
+}
+.subscribe-row h1{
+    font-size: 25px;
+    text-align: center;
+    color: #0f0f0f;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe-row p{
+    font-size: 12px;
+    letter-spacing: .8px;
+    font-weight: 200;
+    color: #666666;
+    line-height: 1.5;
+}
+.subscribe .input-box{
+    width: 700px;
+    height: 60px;
+}
+.input-box input{
+    width: 450px;
+    height: 60px;
+    color: #666666;
+    padding-left: 15px;
+}
+.input-box button{
+    width: 190px;
+    height: 60px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+.privacy p{
+    text-align: center;
+    height: 20px;
+    color: #666666;
+    letter-spacing: 1px;
+    margin-bottom: 111px;
+    font-size: 14px;
+}
+.privacy a{
+    color: #666666;
+}
+/* subscribe-ends */
+/* footer-starts */
+footer{
+    width: 100%;
+    height: 544px;
+    background-color: #0f0f0f
+}
+.footer-border{
+    width: 1330px;
+    height: 424px;
+    margin-left: 287px;
+    display: grid;
+    align-items: center;
+}
+.footer-row-outline{
+    width: 1330px;
+    height: 250px;
+    display: grid;
+    align-items: center;
+}
+.footer-border .row-1{
+    width: 1330px;
+    height: 49px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.row-1 img{
+    width: 700px;
+
+}
+.footer-border .row-2{
+    width: 1330px;
+    height: 74px;
+    display: grid;  
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.footer-border .row-2 a{
+    font-size: 14px;
+    color: #666666;
+}
+.footer-border .row-3{
+    width: 1330px;
+    height: 42px;
+}
+.footer-border .row-3 p{
+    font-size: 14px;
+    color: #666666;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.footer-row-outline-2{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 423px 423px 423px;
+    justify-content: space-between;
+
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col-1{
+    width: 110px;
+    height: 80px;
+    display: grid;
+    justify-content: space-between;
+}
+.col-1 img{
+    width: 102px;
+}
+.col-1 h4{
+    color: #666666;
+    font-size: 12px;
+    font-weight: 700;
+}
+.col-2{
+    width: 200px;
+    height: 80px;
+    display: grid;
+    align-items: center;
+}
+.col-2 img{
+  width: 40px;
+  height:60px;
+  margin-left: 60px;
+}
+.col-2 H4{
+    color: #666666;
+    font-size: 10PX;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 54px 54px 54px 54px 54px;
+    column-gap: 1px;
+    margin-left:40px;
+}
+.grid-2 img{
+    width: 16px;
+    height:16px;
+    margin-top: 30px;
+}
+.grid-2-img{
+    display: grid;
+    justify-content: center;
+}
+.grid-3 button{
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #0f0f0f;
+    color: #666666;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    border: none;
+}
+.grid-3 img{
+    width: 20px;
+    height: 15px;
+}
+.grid-3{
+    display: grid;
+    justify-content: space-between;
+    margin-left: 200px;
+    align-items: center;
+    width: 70px;
+}
+/* footer-ends */
+
